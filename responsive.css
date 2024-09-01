@@ -29,14 +29,17 @@
         font-size: 2rem;
     }
     #signinrow{
+        width: 100px;
         flex-direction: column;
+        height: 80px;
     }
     .signIn{
         display: block;
         background-color: rgb(16, 104, 238);
-        width: 100%;
-        margin-top: 3px;
-        padding: 3px 5px;
+        width: 90%;
+
+        padding: 3px 13px;
+        margin: 2px 3px;
         font-weight: 500;
         border-radius: 20px;
         font-size: 1rem;
@@ -51,7 +54,7 @@
         justify-content: flex-start;
         gap: 15px;
         height:100%;
-        width: 90px;
+        width:100px;
         z-index: 110;
         right: 0;
         margin-top: 60px;
