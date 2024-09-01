@@ -10,18 +10,36 @@
     }
     .nav-sub-part1{
         text-align: center;
-
+        margin-top: 30px;
         width: auto;
         flex-direction: column;
 
     }
     .nav-sub-part1 a{
-        color: white;
+        margin-right: 0;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
         margin-bottom: 20px;
     }
     .nav-sub-part2{
         margin-left: 10px;
         flex: none;
+    }
+    .profile{
+        font-size: 2rem;
+    }
+    #signinrow{
+        flex-direction: column;
+    }
+    .signIn{
+        display: block;
+        background-color: rgb(16, 104, 238);
+        width: 100%;
+        margin-top: 3px;
+        padding: 3px 5px;
+        font-weight: 500;
+        border-radius: 20px;
+        font-size: 1rem;
     }
     .cart{
         margin: 0;
@@ -30,15 +48,15 @@
         position: fixed;
         display: none;
         color: white;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 15px;
         height:100%;
-        width: 80px;
+        width: 90px;
         z-index: 110;
         right: 0;
         margin-top: 60px;
         top:0;
-        background-color: rgba(0, 0, 0, 0.868);
+        background-color: #020e20dd;
         /* background-color: red; */
         flex-direction: column;
         /* position: absolute; */
@@ -58,11 +76,11 @@
 
     }
     .menu{
-        top: 20px;
+        top: 19px;
         right: 2%;
         position: fixed;
         padding-right: 20px;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         /* margin-right: 10px; */
         margin-left: 20px;
         display: block;

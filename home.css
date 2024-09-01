@@ -15,6 +15,21 @@ header{
     align-items: center;
     border-bottom: 1px solid rgb(189, 189, 189);
 }
+#signinrow{
+    width: 150px;
+    flex-direction: row;
+    display: flex;
+}
+.signIn{
+    color: white;
+        background-color: rgb(16, 104, 238);
+        width: 100%;
+        margin-top: 3px;
+        padding: 3px 5px;
+        font-weight: 500;
+        border-radius: 20px;
+        font-size: 1rem;
+}
 .nav-part3{
     display: flex;
     justify-content: space-evenly;
@@ -42,11 +57,11 @@ header{
 .nav-sub-part1{
     width: 200px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .nav-sub-part1 a{
     color: black;
-
+    margin-right: 20px;
     font-size: 1.3rem;
     font-weight: bold;
     text-decoration: none;
