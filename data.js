@@ -110,7 +110,7 @@ const shoesArray = [
       brand: "Jordan",
       model: "Air Jordan 1",
       size: [8, 9, 10, 11, 12],
-      color: "Red/Black/White",
+      color: "Red/White",
       price: 170 * conversionRate,
       inStock: "in Stock",
       categories: ["Basketball", "Casual"],

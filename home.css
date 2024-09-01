@@ -9,7 +9,7 @@ body{
 header{
     position: sticky;
     top: 0;
-    z-index: 11111;
+    z-index: 1;
     background-color: white;
     box-sizing: border-box;
     padding: 0 20px;
@@ -79,6 +79,19 @@ header{
 }
 .menu{
     display: none;
+}
+.nav-part1 img{
+    width: 40px;
+}
+
+.heading1 h1{
+    color: #005fc5;
+    /* text-decoration: underline; */
+    font-weight: light;
+    /* padding-bottom: 5px; */
+    line-height: 80px;
+    font-size: 3rem;
+    margin: 5px 12%;
 }
 .nav-sub-part2{
     font-size: 1.2rem;
@@ -157,7 +170,7 @@ main{
 .card-body ion-icon{
     position: absolute;
     right: 10px;
-    bottom: 2%;
+    bottom: 3%;
     cursor: pointer;
     color: #26b748;
     font-size: 2.5rem;
@@ -176,7 +189,7 @@ main{
 
 .card-text {
     font-size: 1rem;
-    margin: 8px 0;
+    margin-top: 0;
 }
 
 .card-text strong {
@@ -185,25 +198,28 @@ main{
 }
 
 .price {
-    font-size: 1rem;
+
+    font-size: 1.2rem;
     color: #e91e63;
-    margin: 8px 0;
+    margin: 10px 0 0 0;
 }
 
 .rating {
     font-size: 1rem;
-    margin: 8px 0;
+    margin: 2px 0;
     color: #ff8707;
 }
 
 .reviews {
     font-size: 1rem;
     color: #888;
+
 }
 
 .categories {
-    margin-top: 12px;
+    margin-top: 8px;
     color: #007bff;
+
 }
 
 .categories span {
