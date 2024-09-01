@@ -53,11 +53,12 @@
     }
     .cart{
         position: fixed;
-        top: 3%;
+        top: 15px;
         right: 20%;
+
     }
     .menu{
-        top: 3%;
+        top: 15px;
         right: 2%;
         position: fixed;
         padding-right: 20px;
