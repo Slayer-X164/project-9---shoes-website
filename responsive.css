@@ -32,12 +32,13 @@
         width: 100px;
         flex-direction: column;
         height: 80px;
+        text-align: center;
     }
     .signIn{
         display: block;
         background-color: rgb(16, 104, 238);
         width: 90%;
-
+        text-align: center;
         padding: 3px 13px;
         margin: 2px 3px;
         font-weight: 500;
