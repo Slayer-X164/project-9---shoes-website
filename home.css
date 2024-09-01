@@ -80,6 +80,9 @@ header{
 .menu{
     display: none;
 }
+.cartlink{
+    color: black;
+}
 .nav-part1 img{
     width: 40px;
 }

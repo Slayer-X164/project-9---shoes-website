@@ -1,0 +1,24 @@
+.cart-card-container{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.cart-card-container .card{
+    display: flex;
+    width: 60%;
+    height: 25vh;
+    padding: 5px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.card img{
+    width: 40%;
+}
+.cart-summary{
+    height: 55%;
+    padding: 10px;
+    border-left: 1px solid rgb(224, 224, 224);
+}
+.cart-summary 
