@@ -36,7 +36,7 @@ shoesArray.forEach(shoe=>{
                     <div class="categories">
                         <span>${shoe.categories[0]}</span>
                     </div>
-                    <p class="price"> ${shoe.price}</p>
+                    <p class="price">₹${shoe.price}</p>
                     <ion-icon name="add-circle-outline"></ion-icon>
                 </div>
             </div>`
