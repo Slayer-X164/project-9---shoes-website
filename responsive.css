@@ -1,4 +1,4 @@
-@media only screen and (max-width:450px){
+@media only screen and (max-width:600px){
     /* main{
         position: relative;
     } */
@@ -201,4 +201,40 @@
         margin-right: 4px;
         border-radius: 4px;
     }
+    #cart-card-container .card-body{
+        width: 100px;
+    }
+    #cart-card-container .price{
+        margin-top: 0;
+    }
+    #cart-card-container strong{
+        margin: 0;
+
+    }
+    #cart-card-container .card-text{
+        margin: 2px;
+    }
+    #cart-card-container{
+        box-sizing: border-box;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #cart-card-container .card{
+        width: 60%;
+        height: 110px;
+        margin:10px 0;
+    }
+    #cart-card-container .cart-summary{
+        border-left: none;
+    }
+    
+    .multipleCardContainInCart{
+        align-items: center;
+        /* margin-top: 20px; */
+
+    }
+
+
 }

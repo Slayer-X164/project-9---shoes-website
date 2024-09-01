@@ -49,40 +49,45 @@
     </header>
     <main>
         <div id="cart-card-container" class="cart-card-container">
-            <div class="card">
-                <img src="images/1.webp" alt="${shoe.model}">
-                <div class="card-body">
-                    <h2 class="card-title"> nike nike air force 1 </h2>
-                    <h4 class="card-subtitle">Color: red/blue</h4>
-                    <p class="card-text"><strong>Sizes:</strong>5,6,7,8</p>
+            <div class="multipleCardContainInCart">
+                <div class="card">
+                    <img src="images/1.webp" alt="${shoe.model}">
+                    <div class="card-body">
+                        <h2 class="card-title"> nike nike air force 1 </h2>
+                        <h4 class="card-subtitle">Color: red/blue</h4>
+                        <p class="card-text"><strong>Sizes:</strong>5,6,7,8</p>
 
 
-                    <p class="price">₹17000</p>
+                        <p class="price">₹17000</p>
 
+                    </div>
+                    <p class="removeFromeCartBtn">x</p>
                 </div>
+                
             </div>
+
             <div class="cart-summary">
                 <div>
-                    <h1 class="priceDetails">price details(1 item)</h1>
+                    <h1 class="priceDetails">Price Details (1 item)</h1>
                 </div>
-                <div>
+                <div class="detailContainer">
                     <p class="MRP">Total MRP</p>
                     <p class="Price">₹17000</p>
                 </div>
-                <div>
+                <div class="detailContainer">
                     <p class="disocuntMRP">Discount on MRP</p>
                     <p class="discountPrice">-₹0</p>
                 </div>
-                <div>
-                    <p>Convenience Fee</p>
-                    <p>₹90</p>
+                <div class="detailContainer">
+                    <p class="conFee">Convenience Fee</p>
+                    <p class="conFeePrice">₹90</p>
                 </div>
                 <hr>
-                <div>
-                    <p>Total Amount</p>
-                    <p>₹17090</p>
+                <div class="detailContainer">
+                    <p class="totalAmount">Total Amount</p>
+                    <p class="totalAmountPrice">₹17090</p>
                 </div>
-                <button>Place Order</button>
+                <button class="orderBtn">Place Order</button>
             </div>
         </div>
     </main>
