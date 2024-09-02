@@ -8,12 +8,12 @@ menu.addEventListener("click",()=>{
     nav_part3.style.display = "flex"
     // menu.style.display = "none"
     console.log("hi");
-    cart.style.right = "30%"
+
 
 })
 menu2.addEventListener("click",()=>{
     nav_part3.style.display = "none"
-    cart.style.right = "20%"
+    
     // nav_part3.style.display = "none"
 })
 
